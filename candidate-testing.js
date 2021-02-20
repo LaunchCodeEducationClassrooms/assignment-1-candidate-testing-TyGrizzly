@@ -46,8 +46,10 @@ function gradeQuiz(candidateAnswers) {
   while (i < questions.length) {
     if (candidateAnswers[i].toLowerCase() === correctAnswers[i].toLowerCase()) {
       grade += 20;
+    } else {
+      
+      grade;
     }
-    
     console.log(`${Number([i]) + 1}) ${questions[i]} \n Your answer: ${candidateAnswers[i]} \n Correct Answer: ${correctAnswers[i]} \n `);
     
     i++;
