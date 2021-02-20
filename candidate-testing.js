@@ -49,7 +49,7 @@ function gradeQuiz(candidateAnswers) {
     } else {
       grade;
     }
-    console.log(`${Number([i]) + 1}) ${questions[i]} \n Your answer: ${candidateAnswers[i].toLowerCase()} \n Correct Answer: ${correctAnswers[i].toLowerCase()} \n `);
+    console.log(`${Number([i]) + 1}) ${questions[i]} \n Your answer: ${candidateAnswers[i].toLowerCase()} \n Correct Answer: ${correctAnswers[i]} \n `);
     
     i++;
   }
